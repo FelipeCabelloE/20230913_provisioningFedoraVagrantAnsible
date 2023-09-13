@@ -1,0 +1,14 @@
+---
+- name: Test Play
+  hosts: all
+  become: true
+
+  tasks:
+    - name: Install packages
+      ansible.builtin.dnf:
+        name:
+          - nginx
+          - certbot
+          - postgresql
+          - postgresql-server
+        state: present
