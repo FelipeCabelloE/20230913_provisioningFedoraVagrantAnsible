@@ -9,5 +9,7 @@ This is a work in progress.
 ## TODO
 
 #TODO Integrate the previous work done in https://github.com/FelipeCabelloE/ansible-fedora-setup
+
 #TODO provision Docker in the machine while the podman workflow is not ready
+
 #TODO provision mambaforge
