@@ -1,6 +1,8 @@
 # FEDORA + VAGRANT + ANSIBLE
 
-An experiment to test my development environment in a vagrant machine with ansible before installing. 
+An experiment to test my development environment in a vagrant machine with ansible before installing.
+
+The main reference is [here](https://stribny.name/blog/ansible-dev/)
 
 The main idea wold be to pull down a fedoracloud image and test the installation and configuration before installing in bare metal.
 
